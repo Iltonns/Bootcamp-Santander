@@ -5,7 +5,6 @@ Este repositório contém os projetos desenvolvidos durante o Bootcamp Santander
 ## Estrutura do Repositório
 
 - **Projetos**: Cada pasta representa um projeto ou desafio específico do bootcamp.
-- **Documentação**: Instruções de uso, requisitos e detalhes de cada projeto estão descritos em seus respectivos diretórios.
 
 ## Como usar
 
