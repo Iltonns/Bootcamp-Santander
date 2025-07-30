@@ -1,3 +1,16 @@
+"""Sistema de carrinho de compras em Python
+
+## ✨ Funcionalidades
+
+| Ícone | Funcionalidade | Descrição |
+|-------|---------------|-----------|
+| ➕ | Adição de itens | Cadastra produtos com nome, preço unitário e quantidade |
+| ✖️ | Remoção de itens | Remove produtos pelo nome (case insensitive) |
+| 📋 | Visualização | Exibe lista formatada com subtotais e total geral |
+| � | Validação | Verifica dados de entrada (preços positivos, quantidades inteiras) |
+| 🖥️ | Interface | Menu interativo com limpeza automática de tela |
+"""
+
 import os
 
 def limpar_tela():
