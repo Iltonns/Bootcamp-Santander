@@ -1,35 +1,28 @@
-# 🏦 Sistema Bancário em Python
+# 🛍️ Sistema de Carrinho de Compras em Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Um sistema bancário completo via terminal com cadastro de clientes, contas correntes e operações financeiras básicas.
+Um sistema interativo de carrinho de compras via terminal com controle de estoque e cálculo automático de valores.
 
-## ✨ Funcionalidades Principais
+## ✨ Funcionalidades
 
-### 👤 Gestão de Usuários
-- Cadastro com CPF, nome completo, data de nascimento e endereço
-- Validação de CPF único
-- Relacionamento 1:N entre usuários e contas
-
-### 💳 Operações Bancárias
-| Operação | Limites | Registro |
-|----------|---------|----------|
-| Depósito | Sem limites | Registrado no extrato |
-| Saque | Limite diário (3) e por operação (R$500) | Registrado no extrato |
-| Transferência | Validação de saldo | Registrada em ambas as contas |
-| Extrato | Histórico completo | Com data e valor |
-
-### 🏛️ Gestão de Contas
-- Número de conta sequencial automático
-- Agência fixa "0001"
-- Saldo e extrato individual por conta
+| Ícone | Funcionalidade | Descrição |
+|-------|---------------|-----------|
+| ➕ | Adição de itens | Cadastra produtos com nome, preço unitário e quantidade |
+| ✖️ | Remoção de itens | Remove produtos pelo nome (case insensitive) |
+| 📋 | Visualização | Exibe lista formatada com subtotais e total geral |
+| � | Validação | Verifica dados de entrada (preços positivos, quantidades inteiras) |
+| 🖥️ | Interface | Menu interativo com limpeza automática de tela |
 
 ## 🚀 Como Executar
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/sistema-bancario.git
+git clone https://github.com/seu-usuario/carrinho-compras.git
+
+# Acesse o diretório
+cd carrinho-compras
 
 # Execute o programa
-python sistema_bancario.py
+python3 carrinho.py
