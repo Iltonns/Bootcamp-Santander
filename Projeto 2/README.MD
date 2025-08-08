@@ -18,7 +18,7 @@ Um sistema bancário completo via terminal com cadastro de clientes, contas corr
 | Depósito | Sem limites | Registrado no extrato |
 | Saque | Limite diário (3) e por operação (R$500) | Registrado no extrato |
 | Transferência | Validação de saldo | Registrada em ambas as contas |
-| Extrato | Histórico completo | Com data e valor | Listagem de contas |
+| Extrato | Histórico completo | Com data e valor |
 
 ### 🏛️ Gestão de Contas
 - Número de conta sequencial automático
