@@ -31,6 +31,21 @@ Um sistema bancário completo via terminal, desenvolvido com foco em Programaç�
 - Agência fixa "0001".
 - Saldo e extrato individual, encapsulados em cada instância de ContaCorrente.
 
+---
+
+## 🛠️ Recursos Avançados de Python
+
+### ✨ Decoradores
+O projeto utiliza decoradores para validar operações bancárias, como autenticação de clientes e verificação de limites antes de executar métodos sensíveis (ex: saque e transferência). Isso garante regras de negócio centralizadas e reutilizáveis.
+
+### 🔄 Iteradores
+Para percorrer listas de contas, clientes e operações, são implementados métodos iteradores personalizados, facilitando a navegação e manipulação dos dados de forma eficiente e pythonica.
+
+### ⚡ Geradores
+Geradores são empregados para criar extratos e relatórios de operações de maneira eficiente, permitindo a iteração sob demanda e economia de memória, especialmente útil para clientes com grande volume de transações.
+
+---
+
 ## 🚀 Como Executar
 
 ```bash
@@ -43,4 +58,4 @@ python sistema_bancario.py
 
 ---
 
-Este projeto demonstra os princípios da Programação Orientada a Objetos aplicados a um sistema bancário realista, facilitando futuras expansões e manutenções.
+Este projeto demonstra os princípios da Programação Orientada a Objetos aplicados a um sistema bancário realista, além do uso de recursos avançados do Python, facilitando futuras expansões e manutenções.
